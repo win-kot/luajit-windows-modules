@@ -1,0 +1,32 @@
+# Local editor settings
+.vscode/
+.idea/
+
+# Build output and archives
+/build/
+/dist/
+/outputs/
+/examples/output/
+*.exe
+*.dll
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.a
+*.luac
+*.zip
+*.7z
+
+# Temporary files and local secrets
+*.log
+*.tmp
+*.bak
+*~
+.env
+.env.*
+!.env.example
+Thumbs.db
+Desktop.ini
