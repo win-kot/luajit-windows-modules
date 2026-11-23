@@ -1,6 +1,8 @@
 # Function Index
 
-Signatures are extracted from the source files. This index lists functions declared with `function module.name(...)`; aliases, table fields, and metatables may expose additional features. Consult the linked source for parameter types, defaults, and return values.
+This index covers the standalone modules in the repository root. For FrameWork 2.0, download the [FrameWork API reference](../FrameWork/Reference.html) and open it locally.
+
+The index lists functions declared with `function module.name(...)`; aliases, table fields, and metatables may expose additional features. Consult the linked source for parameter types, defaults, and return values.
 
 ## app_icon
 

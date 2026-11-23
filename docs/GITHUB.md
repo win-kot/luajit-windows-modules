@@ -1,5 +1,7 @@
 # Publishing on GitHub
 
+These notes describe the standalone modules in the repository root. See the [FrameWork 2.0 README](../README.md) for the current package.
+
 Suggested repository name: `luajit-windows-modules`.
 
 Suggested description:

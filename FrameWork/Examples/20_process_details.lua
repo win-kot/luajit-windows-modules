@@ -1,0 +1,11 @@
+local dir = debug.getinfo(1, "S").source:sub(2):match("^(.*)[/\\]") or "."
+assert(loadfile(dir .. "/_bootstrap.lua"))(false)
+local p = require("process")
+local pid = p.IdGet()
+local memory = assert(p.MemoryGet(pid))
+local architecture, host = p.ArchitectureGet(pid)
+assert(architecture, host)
+print("PID", pid)
+print("Architecture", architecture, host)
+print("Working set (bytes)", memory.workingSetBytes)
+print("Private memory (bytes)", memory.privateBytes)
